@@ -27,6 +27,5 @@ This Bash script performs the following tasks:
 - **System Updates Status**: Checks for available system updates using `apt` or `yum`.
 - **Malicious File Scan**: Scans the system for potentially malicious files and lists them if found.
 
-
 ## Author
 Emilio Shakhawat
