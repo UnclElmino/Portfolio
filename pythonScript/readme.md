@@ -3,11 +3,11 @@
 A simple Python script that monitors system health, CPU/memory usage, disk space, and logs potential issues.
 
 ## Features
-- ✅ **Cross-platform** (Windows & Linux)
-- 📊 **Monitors CPU & Memory Usage**
-- 💾 **Checks Disk Space Usage**
-- 📝 **Logs system health with timestamps**
-- 🔍 **Detects potential issues and suggests solutions**
+- **Cross-platform** (Windows & Linux)
+- **Monitors CPU & Memory Usage**
+- **Checks Disk Space Usage**
+- **Logs system health with timestamps**
+- **Detects potential issues and suggests solutions**
 
 ## Prerequisites
 This script requires Python and the `psutil` library.
