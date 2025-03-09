@@ -10,11 +10,11 @@ A simple Python script that monitors system health, CPU/memory usage, disk space
 - **Detects potential issues and suggests solutions**
 
 ## Prerequisites
-This script requires Python and the `psutil` library.
+This script requires Python and the `psutil` and `yara-python` libraries.
 
 ### Install Dependencies
 ```bash
-pip install psutil
+pip install psutil yara-python
 ```
 
 ## Usage
@@ -51,6 +51,9 @@ pip install psutil
    Used Disk (GB): 250
    Free Disk (GB): 250
    Usage (%): 50.0
+
+🔹 Malicious Files:
+   No malicious files found
 ```
 
 ## Logging
@@ -61,11 +64,7 @@ pip install psutil
       "Timestamp": "2025-03-06 14:30:15.123456",
       "System Info": {"OS": "Windows", "Processor": "Intel Core i7"},
       "CPU & Memory": {"CPU Usage (%)": 85.0, "Memory Usage (%)": 90.2},
-      "Disk Info": {"Usage (%)": 95.0}
+      "Disk Info": {"Usage (%)": 95.0},
+      "Malicious Files": ["No malicious files found"]
   }
   ```
-
-## Future Improvements
-- 📩 **Email alerts for high CPU/memory usage**
-- 📡 **Remote monitoring support**
-- 📊 **Dashboard with real-time metrics**
