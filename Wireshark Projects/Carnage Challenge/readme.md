@@ -2,6 +2,9 @@
 
 ![image.png](./images/image.png)
 
+### Author
+Emilio Shakhawat
+
 This is my network analysis of the Carnage challenge on TryHackMe.com:
 
 The scenario is as follows: an employee opened an email from a known contact, which contained a Word document that injected malicious code into the victim’s device. The security team managed to capture the packets during the time frame of the attack. My job is to assess and uncover the malicious activities.
